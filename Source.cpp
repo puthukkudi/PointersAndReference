@@ -60,7 +60,7 @@ int main()
 
 	String* s4 = new String("hello"); // Create pointer s4 to new string object : Parameterized constructor is called
 	String* s5 = new String(); // Create pointer s5 to new string object : Default constructor is called
-	*s5 = *s4; // Assign value at  pointer s4 to value at pointer s5 : Parameterized constructor is called
+	*s5 = *s4; // Assign value at  pointer s4 to value at pointer s5 : = Operator overload is called is called
 	String *s6 = new String(*s4); // Create pointer s6 to new string object : copy constructor is called
 	cin.get();
 }
